@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOME</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body class="body">
+    
+    <div class="navbar">
+        <nav class="nav" style="height: 90px;">
+        <a href="home.html" class="link" style="font-size: 40px;">VIEWPOINT UNIVERSITY</a>
+        <a href="about.html"class="link">ABOUT</a>
+        <div class="dropdown">
+            <button class="dropbtn">PROGRAMS
+                <i class="fa fa-caret-down"></i>
+            </button>
+             <div class="dropdown-content">
+                 <a href="#engineering" style="padding: 7px;">FACULTY OF ENGINEERING</a><br><br>
+                 <a href="#business" style="padding: 7px;">FACULTY OF BUSINESS</a><br><br>
+                 <a href="#computing" style="padding: 7px;">FACULTY OF COMPUTING</a><br>
+              </div>
+        </div>
+        <a href="admission.html"class="link">ADMISSION</a>
+        <a href="contacts.html"class="link">CONTACTS</a>
+        <a href="news.html"class="link">NEWS</a>
+        </nav>
+    </div>
+  <section class="admbody">
+<h3><u>RULES FOR ADMISSION OF A NEW STUDENT</u></h3>
+<ol type="1">
+<li>Fill in the details correctly as instructed</li>
+<li>Present information that is honest</li>
+<li>Fill the details only once</li>
+<li>Provide all documents necessary to correspond with information provided(Identity document and Academic document)</li>
+<li>Feedback shall be provided after 3 weeks</li>
+<li>Failure to comply with the rules results to immediate rejection of application</li>
+</ol>
+
+<!-- border radius makes the border curve -->
+
+<form action="" >
+<fieldset style="border-radius: 10px; color: black; border-color: black; border-width: 2px;">
+<legend><b>ADMISSION FORM</b></legend>
+<table >
+
+<tr>
+<td>FULL NAMES: </td>
+<td><input type="text" class="input" placeholder="Enter full names" required></td>
+</tr>
+
+<tr>
+<td>AREA OF RESIDENCY: </td>
+<td><input type="text" class="input" placeholder="Enter area of residency" required></td>
+</tr>
+
+<tr>
+<td>DATE OF BIRTH: </td> 
+<td><input type="date" class="input" placeholder="Enter your date of birth" required></td>
+</tr>
+
+<tr>
+<td><label for=""> FACULTY:</label></td>
+    <td><select name="" class="input" required>
+        <option value="" selected>ENTER FACULTY</option>
+        <option value="ENGINEERING"> ENGINEERING </option>
+        <option value="BUSINESS"> BUSINESS</option>
+        <option value="COMPUTING">COMPUTING</option> 
+    </select></td>
+</tr>
+
+<tr>
+    <td>COURSE:</td> 
+    <td><input type="text" class="input" placeholder="Enter course "></td>
+</tr>
+
+<tr>
+<td><label for="myfile">Provide all relevant documents:</label></td>
+  <td><input type="file" id="myfile" name="myfile"></td>
+</tr>
+<tr>
+<td rowspan="2" ><button class="button">SUBMIT</button></td>
+</tr>
+<tr>
+    <td ><input type="reset" value='RESET' class="button2" ></td>
+    </tr>
+
+</table>
+</fieldset>
+</form>
+
+</section>
+  </body>
+</html>
+
